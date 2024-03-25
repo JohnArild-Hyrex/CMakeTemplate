@@ -1,0 +1,47 @@
+# Ignore build artifacts
+build/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# Ignore Qt Creator files
+*.autosave
+*.backup
+*.creator.user
+*.filelist
+*.files
+*.includes
+*.layout
+*.pro.user
+*.qbs.user
+*.qmake.stash
+*.session
+*.user
+*.wak*
+
+# Ignore CLion files
+.idea/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+cmake-build-*/
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Ignore
+.notes
+src/Testing/Temporary/CTestCostData.txt
+src/Testing/Temporary/LastTest.log
+
+__pycache__/
